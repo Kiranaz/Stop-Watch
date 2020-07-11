@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stop Watch</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="boxWatch">
+      <h2>STOP WATCH</h2>
+
+      <!-- <img src="watchicon.png" alt="ICON" height="50px"> -->
+
+      <div id="num">
+        <div>
+          <h1 id="hours">0</h1>
+          <h5>Hours</h5>
+        </div>
+
+        <div>
+          <h1 id="mints">0</h1>
+          <h5>Minutes</h5>
+        </div>
+
+        <div>
+          <h1 id="sec">0</h1>
+          <h5>Seconds</h5>
+        </div>
+
+        <div>
+          <h1 id="mSecs">0</h1>
+          <h5>Milli Secs</h5>
+        </div>
+      </div>
+
+      <div>
+        <button class="button stylishbtn" id="btn" onclick="start()">
+          START
+        </button>
+        <button class="button stylishbtn" id="btn1" onclick="pause()">
+          PAUSE
+        </button>
+        <button class="button stylishbtn" id="btn2" onclick="reset()">
+          RESET
+        </button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

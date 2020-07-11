@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("asset/decorative-alarm-clock-with-blue-background_23-2147609624.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#boxWatch {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #232324;
+}
+
+#num {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  color: #0d398b;
+}
+
+#hours,
+#mSecs,
+#mints,
+#sec {
+  margin: 20px;
+}
+
+h1 {
+  box-shadow: 1px 1px 15px #cfcdca;
+  width: 110px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  color: #0d398b;
+  font-family: Trajan Pro;
+  background-color: white;
+}
+h5 {
+  color: rgb(32, 82, 156);
+  font-family: Trajan Pro;
+  font-size: 15px;
+}
+
+.count {
+  text-align: center;
+  margin-top: 2cm;
+  font-family: Broadway;
+}
+
+#p {
+  box-shadow: 1px 1px 15px #e6e3e3;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Trajan Pro;
+  font-weight: bold;
+  color: #0d68b3;
+  width: 120px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: cambria math;
+  font-weight: bold;
+}
+
+#block {
+  width: 100%;
+  height: 80px;
+  background-color: #2b2b2a;
+  color: #ff9d00;
+  text-align: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: cambria math;
+  padding-top: 2px;
+  margin-top: 50px;
+}
+
+.button {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.button:hover,
+.button:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.button:disabled {
+  background-color: #000;
+  box-shadow: none;
+  color: grey;
+  border: none;
+}
+
+.stylishbtn {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.stylishbtn:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
